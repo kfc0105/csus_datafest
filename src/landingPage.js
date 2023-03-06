@@ -1,7 +1,9 @@
 import React from 'react';
-import { Typography, Button, Container, Grid, AppBar, Toolbar, createTheme, ThemeProvider, Box  } from '@mui/material';
+import { Typography, Button, Container, Grid, AppBar, Toolbar, createTheme, ThemeProvider, Box } from '@mui/material';
+
 import logo from './Artboard_13x.png';
 import icon1 from './DF_disocrd_logo_V5-2.png';
+import InformationCards from './informationCards';
 
 
 const theme = createTheme({
@@ -84,15 +86,16 @@ const LandingPage = () => {
                   </Grid>
                 </Grid>
               </div>
+              <InformationCards/>
               <Box mt={8}>
                 <Box mt={4}>
                   <Button variant="contained" color="primary" style={{ borderRadius: 50, width: 400, height: 60 }}>
-                    Button 1
+                     FAQ
                   </Button>
                 </Box>
                 <Box mt={4}>
                   <Button variant="contained" color="primary" style={{ borderRadius: 50, width: 400, height: 60 }}>
-                    Button 2
+                    Rule Set
                   </Button>
                 </Box>
                 <Box mt={4}>
